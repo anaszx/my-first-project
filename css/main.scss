@@ -1,0 +1,200 @@
+@import "../bootstrap/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Eater");
+@import url("https://fonts.googleapis.com/css?family=Monoton|Frijole");
+
+/**text indide image
+.class{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: px;
+    margin: px;**/
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(31, 31, 29);
+  > header {
+    height: 100vh;
+    background-image: url(../images/BG1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Eater;
+  }
+}
+
+h1 {
+  word-spacing: 10px;
+}
+
+.textimage {
+  margin-bottom: 140px;
+}
+
+.textimage1 {
+  text-decoration: none;
+  color: white;
+}
+
+.textimage1:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.container {
+  text-align: center;
+  color: rgb(243, 243, 243);
+}
+
+#mcolumn {
+  font-size: 25px;
+  margin-top: 130px;
+}
+
+#lcolumn {
+  font-size: 25px;
+  margin-top: 230px;
+}
+
+#rcolumn {
+  font-size: 25px;
+  margin-top: 230px;
+}
+#behind {
+  background: rgb(224, 224, 224);
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  border: solid 2px black;
+  font-family: Frijole;
+}
+
+#the {
+  font-family: Eater;
+  font-size: 30px;
+}
+#video {
+  margin-left: 322px;
+}
+
+#ourresturant {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  font-family: Frijole;
+  color: red;
+}
+
+#carouselExampleIndicators {
+  border: solid 2px wheat;
+  padding: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#ourmenus {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: Frijole;
+  color: red;
+}
+
+h2 {
+  color: rgb(163, 88, 27);
+  font-family: Eater;
+}
+section {
+  color: aliceblue;
+  text-align: center;
+}
+
+.newsAndEvents {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Ingredients {
+  color: rgb(163, 88, 27);
+  font-size: 20px;
+  font-family: Frijole;
+}
+
+.line {
+  margin: 0% auto;
+  margin-top: 100px;
+}
+
+.map {
+  width: 100%;
+  height: 350px;
+  margin-top: 90px;
+  border: solid 3px red;
+  padding: 20px;
+}
+
+.whereWeAre {
+  margin-top: 90px;
+  margin-bottom: 0%;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: Eater;
+  text-align: center;
+}
+.addrees {
+  text-align: center;
+  font-size: 15px;
+  color: aliceblue;
+  font-family: Eater;
+}
+
+.text {
+  font-size: 16px;
+  font-family: Frijole;
+  text-align: left;
+}
+h3 {
+  font-family: Eater;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+  color: rgb(163, 88, 27);
+}
+footer {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.title {
+  text-align: left;
+  margin-bottom: 40px;
+}
+button {
+  width: 155px;
+}
+
+#button {
+  margin-top: 20px;
+}
+
+#contact {
+  color: rgb(163, 88, 27);
+  font-size: 25px;
+  font-family: Eater;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: 40px;
+  text-align: center;
+}

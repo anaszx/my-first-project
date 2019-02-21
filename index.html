@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> o
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resturant</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<header class="container-fluid">
+  <div class="row">
+    <main class="col-12">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Developer Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Eat in your Office</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#map">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#select">Reservation</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menus
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#carouselControls1">HTML menu</a>
+                <a class="dropdown-item" href="#carouselControls2">CSS menu</a>
+                <a class="dropdown-item" href="#carouselControls3">JS menu</a>
+              </div>
+          </ul>
+        </div>
+      </nav>
+    </main>
+  </div>
+  <div class="d-flex align-items-end flex-column p-5" >
+    <!--or in css follow text inside image-->
+    <h1 class="h1 text-white">Developer Restaurant</h1>
+    <h3 class="h3 text-white">Eat Not Code</h3>
+  </div>
+
+  <div class="container" class="float-lg-left">
+    <div class="row">
+      <div class="col-4" id="lcolumn">
+        <p class="textimage">
+          <a href="" class="textimage1">Weekend Brunch</a>
+        </p>
+        <p class="textimage">
+          <a href="" class="textimage1">Our Offer</a>
+        </p>
+      </div>
+      <div class="col-4" id="mcolumn">
+        <p class="textimage">
+          <a href="" class="textimage1">BREAKFAST</a>
+        </p>
+        <p class="textimage">
+          <a href="" class="textimage1">LUNCH</a>
+        </p>
+        <p class="textimage">
+          <a href="" class="textimage1">DINNER</a>
+        </p>
+      </div>
+      <div class="col-4" id="rcolumn">
+        <p class="textimage">
+          <a href="" class="textimage1">Fresh juice</a>
+        </p>
+        <p class="textimage">
+          <a href="" class="textimage1">Coffee</a>
+        </p>
+
+
+      </div>
+    </div>
+
+</header>
+
+<body>
+  <p id="behind">BEHIND
+    <span id="the">the</span> SCENES</p>
+  <div id="video">
+    <iframe width="860" height="415" src="https://www.youtube.com/embed/BUS99d4NIHA" frameborder="0" allow="autoplay; encrypted-media"
+      allowfullscreen></iframe>
+  </div>
+
+  <div id="ourresturant">
+    <p>OUR RESTURANT</p>
+
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+
+
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./images/ourresturant2.jpg" height="500px">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./images/ourresturant1.jpg" height="500px"
+          alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./images/ourresturant3.jpg" height="500px"
+          alt="Third slide">
+      </div>
+
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <br>
+  <br>
+
+  <div id="ourmenus">
+    <p>OUR MENUS</p>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="container-fluid">
+    <section class="row">
+      <div class="col-4">
+        <h2>HTML MENU</h2>
+        <div id="carouselControls1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./images/html1.jpg" height="600px" alt="First slide">
+              <p class="Ingredients">div Meal BeefMeat,Tomaten,chees,Lettuce, onion,potato
+
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./images/html2.jpg" height="600px" alt="Second slide">
+              <p class="Ingredients">section Meal: Floar,TomatenSauce,Tomaten,chees, onion,Mushroom
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./images/html3.jpg" height="600px" alt="Third slide">
+              <p class="Ingredients">container Meal: BeefMeat,Tomaten,chees, Lettuce,onion
+              </p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselControls1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselControls1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+      </div>
+
+      <div class="col-4">
+        <h2>CSS MENU</h2>
+        <div id="carouselControls2" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./images/css3.jpg" height="600px" alt="First slide">
+              <p class="Ingredients">position Meal: BeefMeat,Brocole,BarbcueSauce, potato,chees
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./images/css2.jpg" height="600px" alt="Second slide">
+              <p class="Ingredients">border Meal: SalmonFisch,Spanet,Vegetables, potato,Sauce
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./images/css1.jpg" height="600px" alt="Third slide">
+              <p class="Ingredients">padding Meal: Fisch,Tomaten,Rice,onion,potato
+              </p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselControls2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselControls2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+      </div>
+
+      <div class="col-4">
+        <h2>JS MENU</h2>
+        <div id="carouselControls3" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./images/sweet1.jpg" height="600px" alt="First slide">
+              <p class="Ingredients">Script: Berries,Milk,Sugar,Semolina
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./images/sweet2.jpg" height="600px" alt="Second slide">
+              <p class="Ingredients">Scope: choclate,Strawberry,Milk,Sugar,Semolina
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./images/sweet3.jpg" height="600px" alt="Third slide">
+              <p class="Ingredients">Event: Strawberry,Milk,Sugar,Semolina
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControls3" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls3" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </div>
+
+  </section>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <a href="">
+    <img class="newsAndEvents" src="https://maialinonyc.com/wp-content/themes/maialino/images/newsAndEvents.png" alt="newsAndEvents">
+  </a>
+  <p class="line" style="border-top: 1px solid white; display: block; width: 50%;"></p>
+
+  <p class="whereWeAre" id="map">Where we are !!</p>
+  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.276311282857!2d6.786340651421355!3d51.21398537948786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8ca37ef4b89e3%3A0x22b5818e08d674aa!2zSMO8dHRlbnN0cmHDn2UgMTAwLCA0MDIxNSBEw7xzc2VsZG9yZg!5e0!3m2!1sen!2sde!4v1530086761404"
+    frameborder="0" style="border:0" allowfullscreen></iframe>
+  <p class="addrees">Developer Restaurant | HüttenStr.100 40215 Düsseldorf | 0201/22334455</p>
+
+
+</body>
+
+<footer id="select">
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4" id="lcolumn">
+        <h2 class="title">Reservations</h2>
+        <p class="text">Reservations are accepted in our dining room up to 28 days in advance for parties of up to 8 guests. Parties of 4
+          guests and fewer can reserve either online or over the phone; we accept reservations for 5–8 guests only over the
+          phone. The front bar area is walk-in only and is open continuously each day until midnight.</p>
+        <div class="form-group" class="select">
+          <label for="exampleFormControlSelect1">Persons</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+          </select>
+        </div>
+        <form action="/action_page.php" class="select">
+          Date and Time:
+          <input type="datetime-local" name="Reservation">
+          <button type="button" class="btn btn-secondary" id="button">Submit</button>
+        </form>
+      </div>
+      <div class="col-4" id="lcolumn">
+        <div class="vl"></div>
+      </div>
+
+      <div class="col-4" id="lcolumn" class="text">
+        <h2 class="title">Hours</h2>
+        <h3>Breakfast</h3>
+        <p class="text"> MONDAY - FRIDAY | 7:30 a.m. - 10:00 a.m.</p>
+        <h3>Lunch</h3>
+        <p class="text">MONDAY - FRIDAY | 12:00 p.m. - 2:00 p.m.</p>
+        <h3>Dinner</h3>
+        <p class="text">MONDAY - FRIDAY | 5:30 p.m. - 10:00 p.m.</p>
+        <h3>Weekend Brunch</h3>
+        <p class="text">SATURDAY - SUNDAY | 10:00 a.m. - 2:30 p.m.</p>
+
+
+      </div>
+    </div>
+
+    <table id="contact">
+      <tr>
+        <th>phone</th>
+        <th>E-mail</th>
+
+      </tr>
+      <tr>
+        <td>004920122334455</td>
+        <td>anas86@outlook.com</td>
+
+        <td>
+          <a href="https://www.facebook.com/anas.aboalneaj">
+            <img src="https://cdn.dribbble.com/users/427761/screenshots/2830628/facebook.gif" width="100px" height="60px">
+        </td>
+        </a>
+      </tr>
+    </table>
+
+
+
+
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
